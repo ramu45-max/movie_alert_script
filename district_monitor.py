@@ -65,7 +65,7 @@ def main() -> None:
 
     matches = []
     for text in listing_texts:
-        for keyword in ("VR Mall", "PVR Palazzo", "Palazzo", "PXL"):
+        for keyword in ("VR Mall", "PVR Palazzo", "Palazzo", "PXL", "Ampa"):
             if re.search(re.escape(keyword), text, re.IGNORECASE):
                 matches.append(f"{keyword}: {text[:500]}")
 
