@@ -19,7 +19,7 @@ INITIALIZING_KEYWORDS = [
     "PVR Palazzo",
     "Palazzo",
     "PXL",
-    # "Ampa",  # uncomment this line for testing
+     "Ampa",  # uncomment this line for testing
 ]
 
 
