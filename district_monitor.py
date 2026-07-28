@@ -38,7 +38,7 @@ def main() -> None:
     matches = []
 
     # Normal keyword checks.
-    for keyword in ("VR Mall", "PXL", "Ampa"):
+    for keyword in ("VR Mall", "PXL"):
         if keyword.lower() in lower_text:
             matches.append(keyword)
 
